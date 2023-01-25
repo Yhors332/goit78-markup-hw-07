@@ -1,0 +1,30 @@
+.hero {
+    
+    &__title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        /* outline: 2px solid tomato; */
+        color: var(--white-color);
+        max-width: 696px;
+        margin: 0 0 30px;
+        @media screen and (min-width: 768px){
+            max-width: 360px;
+            font-size: 26px;
+            line-height: 1.62;
+        }
+        @media screen and (max-width: 767px) {
+            max-width: 360px;
+            text-align: center;
+            font-size: 26px;
+            line-height: 1.62;
+        }
+        @media screen and(min-width: 1200px) {
+            font-size: 44px;
+            line-height: 1.36;
+
+            max-width: 696px;
+        }
+    }
+}

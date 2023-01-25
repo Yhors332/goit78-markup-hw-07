@@ -1,0 +1,75 @@
+.hero__section {
+    background-color: var(--background-hero-footer-color);
+    /* outline: 2px solid tomato; */
+    background-image: linear-gradient(to right,
+            var(--background-hero),
+            var(--background-hero)),
+        url(../img/hero-title.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    @media screen and(max-width: 767px) {
+        padding: 118px 0;
+    }
+
+    @media screen and(min-width: 768px) {
+        padding: 118px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 200px 0;
+    }
+}
+
+.about__section {
+    padding: 94px 0 ;
+
+    @media screen and (max-width: 1199px) {
+        padding: 60px 0;
+    }
+    @media screen and (min-width: 1200px) {
+        
+    }
+}
+
+.visual__section {
+    padding: 0 0 94px;
+    @media screen and (max-width: 1199px) {
+            padding: 0;
+        }
+}
+
+.teem__section {
+    background-color: var(--background-primary-color);
+    padding: 94px 0;
+    /* outline: 3px solid tomato; */
+    @media screen and (max-width: 1199px) {
+            padding: 60px 0;
+        }
+
+}
+
+.client__section {
+    padding: 94px 0;
+    @media screen and (max-width: 1199px) {
+            padding: 60px 0;
+        }
+}
+
+.portfolio__section {
+    padding: 94px 0;
+    background-color: var(--white-color);
+    /* outline: 3px solid tomato; */
+    @media screen and(max-width: 767px) {
+        padding: 60px 0;
+    }
+    @media screen and(min-width: 768px) {
+        padding: 60px 0;
+    }
+    @media screen and(min-width: 1200px) {
+        padding: 94px 0;
+    }
+}

@@ -1,0 +1,43 @@
+.visual {
+    @media screen and (max-width: 1199px) {
+            display: none;
+        }
+
+    &__img {
+        display: flex;
+        
+    }
+
+    &__img .visual__card+.visual__card {
+        margin-left: 30px;
+
+    }
+
+
+    &__card {
+        position: relative;
+    }
+
+    &__text {
+        position: absolute;
+        margin: 0;
+
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+
+        background-color: var(--background-item-card);
+        color: var(--white-color);
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+    }
+}

@@ -1,0 +1,102 @@
+.portfolio-card {
+    &__item {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        @media screen and (max-width: 767px) {
+            justify-content: center;
+            margin: 40px 0 0 0;
+        }
+        @media screen and (min-width:1200px) {
+            justify-content: center;
+        }
+    }
+
+    &__list {
+        border: 1px solid var(--background-subsection-portfolio);
+        background-color: var(--white-color);
+        /* outline: 3px solid tomato; */
+        flex-basis: calc((100% - 60px)/ 9);
+        max-width: 370px;
+        @media screen and (max-width: 767px) {
+            min-width: 450px;
+        }
+
+        @media screen and (min-width:768px) {
+            min-width: 354px;
+        }
+
+        @media screen and (min-width:1200px) {
+            min-width: 370px;
+        }
+
+    }
+
+    &__list:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+            0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        /* outline: 2px solid tomato; */
+        color: var(--primary-text-color);
+        margin: 0;
+        max-width: 322px;
+    }
+
+    &__subsection {
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+        /* outline: 2px solid tomato; */
+        color: var(--title-text-color);
+        margin: 0;
+
+
+    }
+
+    &__thumb {
+        position: relative;
+
+        overflow: hidden;
+    }
+
+    &__overlay {
+        position: absolute;
+
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        transform: translateY(100%);
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+        color: var(--white-color);
+        background-color: var(--background-card);
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.56;
+        letter-spacing: 0.03em;
+        padding: 63px 24px;
+
+    }
+
+    &__list:hover .portfolio-card__overlay {
+        transform: translateY(0);
+    }
+
+
+
+    &__name {
+        padding: 20px 24px;
+    }
+}
