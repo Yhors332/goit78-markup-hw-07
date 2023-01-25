@@ -76,9 +76,9 @@
             align-items: center;
             justify-content: center;
 
-            border: 1px solid var(--border-client);
+            border: 1px solid var(--subtle-text);
             border-radius: 4px;
-            fill: var(--fill-client);
+            fill: var(--subtle-text);
             transition-duration: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             @media screen and(max-width: 767px) {
@@ -90,8 +90,8 @@
 
         &__item :hover,
         &__item :focus {
-            fill: var(--accent-color);
-            border: 1px solid var(--accent-color);
+            fill: var(--pressed-state);
+            border: 1px solid var(--pressed-state);
         }
     }
 

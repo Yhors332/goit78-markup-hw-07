@@ -16,7 +16,7 @@
             line-height: 1.14;
             letter-spacing: 0.02em;
             /* outline: 2px solid tomato; */
-            color: var(--title-text-color);
+            color: var(--dark);
             transition-duration: 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             @media screen and (min-width: 768px) {
@@ -32,8 +32,8 @@
 
         &__link:hover,
         &__link:focus {
-            color: var(--accent-color);
-            fill: var(--accent-color);
+            color: var(--pressed-state);
+            fill: var(--pressed-state);
         }
 
         &__nav .auth-nav__item+.auth-nav__item {
