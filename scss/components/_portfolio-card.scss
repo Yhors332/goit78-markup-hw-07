@@ -13,8 +13,8 @@
     }
 
     &__list {
-        border: 1px solid var(--background-subsection-portfolio);
-        background-color: var(--white-color);
+        border: 1px solid var(--light);
+        background-color: var(--white);
         /* outline: 3px solid tomato; */
         flex-basis: calc((100% - 60px)/ 9);
         max-width: 370px;
@@ -44,7 +44,7 @@
         line-height: 2;
         letter-spacing: 0.06em;
         /* outline: 2px solid tomato; */
-        color: var(--primary-text-color);
+        color: var(--dark);
         margin: 0;
         max-width: 322px;
     }
@@ -54,7 +54,7 @@
         line-height: 1.9;
         letter-spacing: 0.03em;
         /* outline: 2px solid tomato; */
-        color: var(--title-text-color);
+        color: var(--text);
         margin: 0;
 
 
@@ -79,8 +79,8 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
-        color: var(--white-color);
-        background-color: var(--background-card);
+        color: var(--white);
+        background-color: var(--pressed-state);
 
         font-weight: 400;
         font-size: 18px;
