@@ -56,13 +56,14 @@
             @media screen and(max-width: 767px) {
                 flex-basis: 22.222% ;   
                 min-width: 190px;
-                
+                height: 88px;
                 margin-top: 72px;
                 }
 
             @media screen and(min-width: 768px) {
                 flex-basis: 33.333%;
                 width: 168px;
+                height: 88px;
                 margin-top: 48px;
             }
 
