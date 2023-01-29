@@ -20,7 +20,8 @@
 
     @media screen and (min-width: 1200px) {
         width: 100%;
-
+        width: 1200px;
+        height: 76px;
     }
 
 }
@@ -86,23 +87,11 @@
 
 .visual__container {
     padding: 0 0 94px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: 0 auto;
     padding: 0 15px;
 
-    .visual__title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
-        /* outline: 2px solid tomato; */
-        color: var(--primary-text-color);
-        margin-top: 0;
-        margin-bottom: 50px;
-    }
-    
+
     .img-item {
         display: block;
         position: relative;
@@ -186,11 +175,9 @@
     }
 
     @media screen and(min-width: 1200px) {
-        width: 100%;
+        width: 1200px;
         flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 15px;
+        margin: 0 auto;
     }
 
     .block {
@@ -204,8 +191,8 @@
             }
         @media screen and (min-width: 1200px) {
             display: flex;
-            justify-content: center;
-            gap: 0;
+            margin: 0;
+            gap: 120px;
             
         }
 
@@ -328,7 +315,7 @@
 
             @media screen and(min-width: 1200px) {
                 text-align: start;
-                margin-right: 93px;
+                margin-right: 80px;
             }
 
             margin: 12px 78px 0 70px;

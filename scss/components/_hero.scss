@@ -2,12 +2,11 @@
     
     &__title {
         font-weight: 700;
-        font-size: 44px;
-        line-height: 1.36;
+        font-size: 56px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         /* outline: 2px solid tomato; */
         color: var(--white);
-        max-width: 696px;
         @media screen and (max-width: 767px) {
             min-width: 318px;
             text-align: center;
@@ -18,16 +17,12 @@
 
         @media screen and (min-width: 768px) {
             min-width: 494px;
-            font-size: 56px;
-            line-height: 1.1;
             margin: 0 0 40px;
         }
 
         @media screen and(min-width: 1200px) {
-            font-size: 44px;
-            line-height: 1.36;
-
-            max-width: 696px;
+            min-width: 494px;
+            margin: 0 0 48px;
         }
     }
 }

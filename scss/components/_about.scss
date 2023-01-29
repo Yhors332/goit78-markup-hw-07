@@ -13,6 +13,7 @@
 
         @media screen and (min-width: 1200px) {
             width: 1200px;
+            margin-bottom: 0;
         }
     }
 
@@ -24,13 +25,16 @@
             }
         @media screen and (min-width: 768px) {
             flex-wrap: wrap;
-            gap: 30px;
+            gap: 24px;
             
         }
 
         @media screen and (min-width: 1200px) {
             display: flex;
             flex-wrap: nowrap;
+            gap: 24px;
+            margin: 0 auto;
+            width: 1200px;
         }
     }
 
@@ -45,13 +49,6 @@
     }
 
     &__icon {
-        
-        height: 120px;
-        background-color: var(--ligt);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 0 30px;
 
         @media screen and (max-width: 767px) {
             display: none;            
@@ -62,13 +59,13 @@
         }
 
         @media screen and (min-width: 1200px) {
+            width: 264px;
             height: 120px;
             background-color: var(--light);
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 0 30px;
-            width: 100%;
+            margin: 0 0 8px;
         }
     }
 
@@ -84,24 +81,31 @@
         @media screen and (max-width: 767px){
             text-align: center; 
         }
+        @media screen and (min-width: 1200px) {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+        }
         
     }
 
     &__subsection {
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--text);
         margin: 0;
-        @media screen and(max-width: 767px) {
+        @media screen and(max-width: 1199px) {
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
         }
-}
+        }
+        
+
 
     &__item:last-child{
         margin-bottom: 0;
