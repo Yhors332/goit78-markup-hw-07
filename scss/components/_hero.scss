@@ -1,25 +1,28 @@
 .hero {
     
     &__title {
-        font-weight: 900;
+        font-weight: 700;
         font-size: 44px;
         line-height: 1.36;
-        letter-spacing: 0.06em;
+        letter-spacing: 0.02em;
         /* outline: 2px solid tomato; */
-        color: var(--white-color);
+        color: var(--white);
         max-width: 696px;
-        margin: 0 0 30px;
-        @media screen and (min-width: 768px){
-            max-width: 360px;
-            font-size: 26px;
-            line-height: 1.62;
-        }
         @media screen and (max-width: 767px) {
-            max-width: 360px;
+            min-width: 318px;
             text-align: center;
-            font-size: 26px;
-            line-height: 1.62;
+            font-size: 36px;
+            line-height: 1.11;
+            margin: 0 0 72px;
         }
+
+        @media screen and (min-width: 768px) {
+            min-width: 494px;
+            font-size: 56px;
+            line-height: 1.1;
+            margin: 0 0 40px;
+        }
+
         @media screen and(min-width: 1200px) {
             font-size: 44px;
             line-height: 1.36;

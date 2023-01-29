@@ -3,10 +3,12 @@
     &__item {
         @media screen and (max-width: 767px) {
             flex-basis: 480px;
+            margin: 0 0 72px;
         }
 
         @media screen and (min-width: 768px) {
-            flex-basis: calc((100% - 60px)/2);
+            flex-basis: calc((100% - 48px)/2);
+            margin-bottom: 72px;
         }
 
         @media screen and (min-width: 1200px) {
@@ -18,7 +20,7 @@
         display: flex;
         @media screen and (max-width: 767px) {
                 display: block;
-                margin-bottom: 30px;
+                margin-bottom: 0px;
             }
         @media screen and (min-width: 768px) {
             flex-wrap: wrap;
@@ -51,14 +53,20 @@
         margin: 0 0 30px;
 
         @media screen and (max-width: 767px) {
-            width: 100%;            
+            display: none;            
             }
 
         @media screen and (min-width: 768px) {
-            width: 100%;            
+            display: none;
         }
 
         @media screen and (min-width: 1200px) {
+            height: 120px;
+            background-color: var(--light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 0 30px;
             width: 100%;
         }
     }
@@ -66,28 +74,36 @@
     &__title {
         font-weight: 700;
         font-size: inherit;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
+        line-height: inherit;
+        letter-spacing: 0.02em;
         /* outline: 2px solid tomato; */
         color: var(--dark);
-        margin: 0 0 10px;
+        margin: 0 0 8px;
 
         @media screen and (max-width: 767px){
             text-align: center; 
         }
+        
     }
 
     &__subsection {
-        letter-spacing: 0.03em;
-        /* outline: 2px solid tomato; */
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
         color: var(--text);
         margin: 0;
         @media screen and(max-width: 767px) {
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.71;
-            margin: 0 0 30px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
         }
+}
 
+    &__item:last-child{
+        margin-bottom: 0;
     }
+
 }

@@ -2,9 +2,9 @@
     background-color: var(--background-hero-footer-color);
     /* outline: 2px solid tomato; */
     background-image: linear-gradient(to right,
-            var(--background-hero),
-            var(--background-hero)),
-        url(../img/hero-title.jpg);
+            var(--hero-background),
+            var(--hero-background)),
+        url(../img/people-office.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,15 +12,15 @@
     max-width: 1600px;
     margin: 0 auto;
     @media screen and(max-width: 767px) {
-        padding: 118px 0;
+        padding: 112px 0;
     }
 
     @media screen and(min-width: 768px) {
-        padding: 118px 0;
+        padding: 112px 0;
     }
 
     @media screen and (min-width: 1200px) {
-        padding: 200px 0;
+        padding: 188px 0;
     }
 }
 
@@ -28,7 +28,7 @@
     padding: 94px 0 ;
 
     @media screen and (max-width: 1199px) {
-        padding: 60px 0;
+        padding: 96px 0;
     }
     @media screen and (min-width: 1200px) {
         
@@ -43,11 +43,11 @@
 }
 
 .teem__section {
-    background-color: var(--background-primary-color);
+    background-color: var(--light);
     padding: 94px 0;
     /* outline: 3px solid tomato; */
     @media screen and (max-width: 1199px) {
-            padding: 60px 0;
+            padding: 96px 0;
         }
 
 }
@@ -55,7 +55,7 @@
 .client__section {
     padding: 94px 0;
     @media screen and (max-width: 1199px) {
-            padding: 60px 0;
+            padding: 96px 0;
         }
 }
 

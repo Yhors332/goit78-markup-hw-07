@@ -4,17 +4,18 @@
     /* border: 1px solid var(--background-primary-color); */
     &__logo {
             font-family: 'Raleway';
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.19;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.33;
             letter-spacing: 0.03em;
             /* outline: 2px solid tomato; */
-            color: var(--black-color);
+            color: var(--dark);
             margin-right: 93px;
             flex-shrink: 0;
             
             @media screen and (max-width: 767px) {
-                font-size: 24px;
+                font-weight: 800;
+                font-size: 18px;
                 line-height: 1.17;
                 position: relative;
                 display: inline-flex;
@@ -22,19 +23,19 @@
             }
 
             @media screen and (min-width: 768px){
-                font-size: 24px;
-                line-height: 1.17;
-                margin-right:88px;
+                font-size: 18px;
+                line-height: 1.17;;
+                margin-right: 120px;
             }
 
             @media screen and (min-width: 1200px) {
-                font-size: 26px;
-                line-height: 1.19;
-                margin-right: 93px;
+                font-size: 18px;
+                line-height: 1.33;
+                margin-right: 76px;
             }
         }
     .logo {
-            color: var(--accent-color);
+            color: var(--primary-brand);
         }
 }
 
