@@ -1,18 +1,23 @@
 .about {
     
     &__item {
+        
+        @media screen and(max-width: 427px) {
+            width: 100%;
+        }
+
         @media screen and (max-width: 767px) {
-            flex-basis: 480px;
+            flex-basis: 428px;
             margin: 0 0 72px;
         }
 
         @media screen and (min-width: 768px) {
             flex-basis: calc((100% - 48px)/2);
-            margin-bottom: 72px;
+            margin-bottom: 24px;
         }
 
         @media screen and (min-width: 1200px) {
-            width: 1200px;
+            
             margin-bottom: 0;
         }
     }
@@ -25,7 +30,7 @@
             }
         @media screen and (min-width: 768px) {
             flex-wrap: wrap;
-            gap: 24px;
+            gap: 48px;
             
         }
 
@@ -34,7 +39,7 @@
             flex-wrap: nowrap;
             gap: 24px;
             margin: 0 auto;
-            width: 1200px;
+            width: 1158px;
         }
     }
 

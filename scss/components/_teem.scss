@@ -1,4 +1,13 @@
     .teem {
+        
+        background-color: var(--light);
+
+        @media screen and (max-width: 767px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        
         &__title {
             font-weight: inherit;
             font-size: inherit;

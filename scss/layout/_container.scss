@@ -1,155 +1,3 @@
-.header__container {
-
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    /* outline: 2px solid tomato; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    @media screen and (max-width: 767px) {
-        width: 100%;
-        height: 70px;
-    }
-    @media screen and (min-width: 768px) {
-        width: 100%;
-        height: 70px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 100%;
-        width: 1200px;
-        height: 76px;
-    }
-
-}
-
-.hero__container {
-    text-align: center;
-
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-    max-width: 1200px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-
-
-    @media screen and (max-width: 767px) {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    @media screen and (min-width: 768px) {
-        width: 100%;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 100%;
-    }
-    
-}
-
-.about__container {
-    padding: 94px 15px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-    @media screen and (max-width: 767px) {
-        width: 100%;
-        padding: 0 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    @media screen and (min-width: 768px) {
-        padding: 0 15px;
-        width: 100%;
-    }
-    @media screen and (min-width: 1200px){
-        
-        padding: 0 15px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-}
-}
-
-.visual__container {
-    padding: 0 0 94px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-
-
-    .img-item {
-        display: block;
-        position: relative;
-        
-    }
-}
-
-.teem__container {
-
-    padding: 94px 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-    /* outline: 3px solid tomato; */
-
-    @media screen and (max-width: 767px) {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    @media screen and (min-width: 768px) {
-        padding: 0 15px;
-        width: 768px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 100%;
-        padding: 0 15px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
-
-.client__container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-    /* outline: 2px solid tomato; */
-    @media screen and(max-width: 767px) {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 15px;
-    }
-    @media screen and(min-width: 768px) {
-        width: 768px;
-    }
-    @media screen and(min-width: 1200px) {
-        width: 100%;
-    }
-}
 
 .footer__container {
     width: 1200px;
@@ -158,8 +6,16 @@
     padding: 0 15px;
     display: flex;
     /* outline: 3px solid tomato; */
-    @media screen and(max-width: 767px) {
+    @media screen and(max-width: 427px) {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 15px;
+    }
+    
+    @media screen and(min-width: 428px) {
+        width: 428px;
         display: flex;
         flex-direction: column ;
         text-align: center;
@@ -167,7 +23,7 @@
     }
     
     @media screen and(min-width: 768px) {
-        width: 100%;
+        width: 768px;
         display: flex;
         flex-direction: column;
         text-align: start;
@@ -175,7 +31,7 @@
     }
 
     @media screen and(min-width: 1200px) {
-        width: 1200px;
+        width: 1158px;
         flex-direction: row;
         margin: 0 auto;
     }
@@ -398,7 +254,9 @@
                 text-align: start;
                 display: flex;
                 flex-direction: column;
-                margin: 0 auto;
+                margin: 0 119px;
+
+                
 
             }
 
@@ -486,61 +344,54 @@
 
     }
 
-
-
-
-.portfolio__container {
-    padding: 94px 0;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-    /* outline: 3px solid tomato; */
-    @media screen and (max-width: 767px) {
-    width: 100%;
-    }
-    
-    @media screen and (min-width:768px){
-        width: 100%;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 100%;
-    }
-
-    .img-portfolio {
-        display: block;
-        @media screen and (max-width: 767px) {
-            min-width: 100%;
-        }
-
-        @media screen and (min-width:768px) {
-            min-width: 100%;
-        }
-    }
-}
-
 .modal__container {
     background-color: var(--white);
     position: relative;
-    width: 100%;
 
-    max-width: 528px;
-    max-height: 581px;
-
-    padding: 24px 16px;
-
-    @media screen and (max-width: 697px) {
-        min-width: 392px;
-        min-height: 600px;
+    @media screen and (max-width: 767px) {
+        width: 392px;
+        height: 586px;
         padding: 72px 16px 24px;
     }
 
     @media screen and (min-width: 768px) {
-        max-width: 408px;
-        max-height: 600px;
+        width: 408px;
+        height: 586px;
+        padding: 72px 24px 24px;
     }
 
-    
+    @media screen and (min-width: 1200px) {
+        width: 408px;
+        height: 586px;
+        padding: 72px 24px 24px;
+    }
 
+}
+
+.container {
+    
+    @media screen and(max-width: 427px) {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    
+    @media screen and (min-width: 428px) {
+            width: 428px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            width: 768px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 1158px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
 }
 
