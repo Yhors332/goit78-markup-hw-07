@@ -437,7 +437,7 @@ a {
 
 .modal__btn {
   border-radius: 50%;
-  margin: 24px 24px 0;
+  margin: 12px 12px;
   padding: 8px 8px;
   position: absolute;
   display: -webkit-box;
@@ -2006,21 +2006,21 @@ a {
   .modal__container {
     width: 392px;
     height: 586px;
-    padding: 72px 16px 24px;
+    padding: 24px 16px;
   }
 }
 @media screen and (min-width: 768px) {
   .modal__container {
     width: 408px;
     height: 586px;
-    padding: 72px 24px 24px;
+    padding: 24px 24px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal__container {
     width: 408px;
     height: 584px;
-    padding: 72px 24px 24px;
+    padding: 24px 24px;
   }
 }
 
